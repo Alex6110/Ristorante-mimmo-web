@@ -1,0 +1,540 @@
+{
+  "categorie": [
+    {
+      "categoria": "Antipasti e Meze",
+      "descrizione": "",
+      "items": [
+        { 
+          "nome": "Patate al forno o fritte", 
+          "nome_arabo": "بطاطا مشوية أو مقلية",
+          "descrizione": "Patate tagliate a spicchi, condite con spezie mediorientali e cotte al forno o fritte", 
+          "descrizione_araba": "بطاطا مقطعة إلى شرائح، متبلة بتوابل شرق أوسطية ومطهوة في الفرن أو مقلية",
+          "prezzo": 1.50,
+          "allergeni": []
+        },
+        { 
+          "nome": "Insalata Egiziana", 
+          "nome_arabo": "سلطة مصرية",
+          "descrizione": "Pomodoro, lattuga, olio d'oliva, spezie", 
+          "descrizione_araba": "طماطم، خس، زيت زيتون، توابل",
+          "prezzo": 3.50,
+          "allergeni": []
+        },
+        { 
+          "nome": "Insalata Fattoush", 
+          "nome_arabo": "سلطة فتوش",
+          "descrizione": "Pane pita tostato, pomodoro, cetriolo e menta", 
+          "descrizione_araba": "خبز بيتا محمص، طماطم، خيار ونعناع",
+          "prezzo": 4.00,
+          "allergeni": [1]
+        },{ 
+          "nome": "Tomyia (Salsa all'aglio)", 
+          "nome_arabo": "تومية (صلصة الثوم)",
+          "descrizione": "Aglio, olio d'oliva, spezie", 
+          "descrizione_araba": "ثوم، زيت زيتون، توابل",
+          "prezzo": 3.50,
+          "allergeni": [3]
+        },{ 
+          "nome": "Baba Ghanoush", 
+          "nome_arabo": "بابا غنوج",
+          "descrizione": "Melanzana, tahina, limone, olio d'oliva", 
+          "descrizione_araba": "باذنجان، طحينة، ليمون، زيت زيتون",
+          "prezzo": 3.50,
+          "allergeni": [11]
+        },{ 
+          "nome": "Hummus", 
+          "nome_arabo": "الحمص",
+          "descrizione": "Ceci, tahina, limone, olio d'oliva", 
+          "descrizione_araba": "حمص، طحينة، ليمون، زيت زيتون",
+          "prezzo": 3.50,
+          "allergeni": [11]
+        },
+        { 
+          "nome": "Antipasti Misti", 
+          "nome_arabo": "مقبلات مشكلة",
+          "descrizione": "Tipi misti di antipasti (hummus, baba ghanoush, tomyia)", 
+          "descrizione_araba": "أنواع مختلفة من المقبلات (حمص، بابا غنوج، تومية)",
+          "prezzo": 8.00,
+          "allergeni": [3,11]
+        }
+      ]
+    },
+    {
+      "categoria": "Zuppe tradizionali",
+      "descrizione": "",
+      "items": [
+        { 
+          "nome": "Zuppa d'orzo", 
+          "nome_arabo": "شوربه لسان عصفور",
+          "descrizione": "", 
+          "descrizione_araba": "",
+          "prezzo": 3.50,
+          "allergeni": [1,9] 
+        },
+        { 
+          "nome": "Zuppa di verdure", 
+          "nome_arabo": "شوربة الخضار",
+          "descrizione": "", 
+          "descrizione_araba": "",
+          "prezzo": 4.50,
+          "allergeni": [9]
+        },
+        { 
+          "nome": "Zuppa di lenticchie", 
+          "nome_arabo": "شوربة العدس",
+          "descrizione": "", 
+          "descrizione_araba": "",
+          "prezzo": 3.50,
+          "allergeni": [9]
+        },
+        { 
+          "nome": "Molokhia", 
+          "nome_arabo": "ملوخية",
+          "descrizione": "Zuppa prepaparata con foglie di molokhia, aglio e coriandolo", 
+          "descrizione_araba": "شوربة محضرة بأوراق الملوخية، الثوم والكزبرة",
+          "prezzo": 4.00,
+          "allergeni": [9]
+        }
+      ]
+    },
+    {
+      "categoria": "Le nostre Tajine",
+      "descrizione": "Tutti i piatti vengono serviti con riso o pane",
+      "items": [
+        { 
+          "nome": "Tajine di patate con carne", 
+          "nome_arabo": "طاجين البطاطا باللحم",
+          "descrizione": "Patate al forno con carne tenera in salsa di pomodoro aromatizzata", 
+          "descrizione_araba": "بطاطا مشوية مع لحم طري في صلصة الطماطم المتبلة",
+          "prezzo": 13.00,
+          "allergeni": [9]
+        },
+        { 
+          "nome": "Tajine di patate con pollo", 
+          "nome_arabo": "طاجين البطاطا بالدجاج",
+          "descrizione": "Pollo e patate al forno cotti in una salsa leggera e speziata", 
+          "descrizione_araba": "دجاج وبطاطا مشوية مطهوة في صلصة خفيفة ومتبل",
+          "prezzo": 13.00,
+          "allergeni": [9]
+        },
+        { 
+          "nome": "Tajine di Okra (Bamya) con carne", 
+          "nome_arabo": "طاجين البامية باللحم",
+          "descrizione": "Carne e okra (bamya) cucinate in salsa di pomodoro tradizionale speziata", 
+          "descrizione_araba": "لحم وبامية مطهوة في صلصة الطماطم التقليدية المتبلة",
+          "prezzo": 13.00,
+          "allergeni": [9]
+        }
+      ]
+    },
+    {
+      "categoria": "Dal braciere - le grigliate",
+      "descrizione": "",
+      "items": [
+        { 
+          "nome": "Pollo alla griglia", 
+          "nome_arabo": "دجاج مشوي",
+          "descrizione": "1/2 pollo con osso o senza (riso - patata/verdura)", 
+          "descrizione_araba": "نصف دجاجة مع العظم أو بدون (أرز - بطاطا/خضار)",
+          "prezzo": 12.00,
+          "allergeni": [7]
+        },
+        { 
+          "nome": "Shish Tawook (Spiedini di pollo)", 
+          "nome_arabo": "شيش طاووق (أسياخ الدجاج)",
+          "descrizione": "6 pezzi / riso - patata/verdura", 
+          "descrizione_araba": "6 قطع / أرز - بطاطا/خضار",
+          "prezzo": 10.00,
+          "allergeni": [7]
+        },
+        { 
+          "nome": "Shish Kebab (Spiedini di carne)", 
+          "nome_arabo": "شيش كباب (أسياخ اللحم)",
+          "descrizione": "6 pezzi / riso - patata/verdura", 
+          "descrizione_araba": "6 قطع / أرز - بطاطا/خضار",
+          "prezzo": 13.00,
+          "allergeni": []
+        },
+        { 
+          "nome": "Petti di pollo alla griglia", 
+          "nome_arabo": "صدور الدجاج المشوية",
+          "descrizione": "3 pezzi / riso - patata/verdura", 
+          "descrizione_araba": "3 قطع / أرز - بطاطا/خضار",
+          "prezzo": 10.00,
+          "allergeni": [7]
+        },
+        { 
+          "nome": "Kofta alla griglia", 
+          "nome_arabo": "كفتة مشوية",
+          "descrizione": "Riso - insalata", 
+          "descrizione_araba": "أرز - سلطة",
+          "prezzo": 12.00,
+          "allergeni": [1]
+        },
+        { 
+          "nome": "Grigliata mista", 
+          "nome_arabo": "مشويات مشكلة",
+          "descrizione": "Riso - patata/verdura", 
+          "descrizione_araba": "أرز - بطاطا/خضار",
+          "prezzo": 15.00,
+          "allergeni": [1,7]
+        },
+        { 
+          "nome": "Grigliata mista di Mimmo", 
+          "nome_arabo": "ميكس جريل ميمو",
+          "descrizione": "1 pz Shish Tawook - 3 pz Shish Kebab - 2 pz Kofta - 1 pz costoletta di agnello - 2 pz fegato alla griglia", 
+          "descrizione_araba": "قطعة واحدة شيش طاووق - 3 قطع شيش كباب - 2 قطع كفتة - قطعة واحدة ريش غنم - 2 قطع كبدة مشوية",
+          "prezzo": 24.00,
+          "allergeni": [1,7]
+        }
+      ]
+    },
+    {
+      "categoria": "Specialità dello Chef - piatti unici",
+      "descrizione": "",
+      "items": [
+        { 
+          "nome": "Fajita di pollo", 
+          "nome_arabo": "فاهيتها دجاج",
+          "descrizione": "Teneri straccetti di pollo marinati e saltati con peperoni freschi e cipolle dorate", 
+          "descrizione_araba": "شرائح دجاج طرية متبلة ومقلية مع فلفل حلو طازج وبصل ذهبي",
+          "prezzo": 14.00,
+          "allergeni": [6]
+        },
+        { 
+          "nome": "Fajita di manzo", 
+          "nome_arabo": "فاهيتا لحم",
+          "descrizione": "Sottili strisce di manzo di prima scelta grigliate con un mix di spezie aromatiche", 
+          "descrizione_araba": "شرائح رقيقة من لحم البقر الممتازة مشوية مع مزيج من التوابل العطرية",
+          "prezzo": 15.00,
+          "allergeni": [6]
+        },
+        { 
+          "nome": "Costolette di agnello", 
+          "nome_arabo": "ريش ضاني",
+          "descrizione": "Costolette di agnello tenerissime cotte alla brace servite con riso e patate", 
+          "descrizione_araba": "قطع لحم الضأن طرية مطهوة على الفحم تقدم مع الأرز والبطاطا",
+          "prezzo": 15.00,
+          "allergeni": []
+        },
+        { 
+          "nome": "Gollash", 
+          "nome_arabo": "جلاش",
+          "descrizione": "Sfoglia croccante e dorata ripiena di carne macinata e aromi orientali", 
+          "descrizione_araba": "فطيرة مقرمشة وذهبية محشوة باللحم المفروم والتوابل الشرقية",
+          "prezzo": 8.00,
+          "allergeni": [1,3,7]
+        },
+        { 
+          "nome": "Cous cous con pollo o carne", 
+          "nome_arabo": "كسكس مع الدجاج أو اللحم",
+          "descrizione": "", 
+          "descrizione_araba": "",
+          "prezzo": 15.00,
+          "allergeni": [1,9]
+        }
+      ]
+    },
+    {
+      "categoria": "I nostri panini",
+      "descrizione": "",
+      "items": [
+        { 
+          "nome": "Kofta alla griglia", 
+          "nome_arabo": "كفتة مشوية",
+          "descrizione": "Carne macinata di manzo speziata con cipolla fresca e prezzemolo", 
+          "descrizione_araba": "لحم بقر مفروم متبل مع بصل طازج وبقدونس",
+          "prezzo": 7.00,
+          "allergeni": [1]
+        },
+        { 
+          "nome": "Shish taouk", 
+          "nome_arabo": "شيش طاووق",
+          "descrizione": "Spiedini di pollo marinato con spezie orientali", 
+          "descrizione_araba": "أسياخ الدجاج المتبلة بالتوابل الشرقية",
+          "prezzo": 7.00,
+          "allergeni": [1,7]
+        },
+        { 
+          "nome": "Salsiccia orientale", 
+          "nome_arabo": "سجق شرقي",
+          "descrizione": "Salsiccia orientale cotta alla brace", 
+          "descrizione_araba": "سجق شرقي مطهو على الفحم",
+          "prezzo": 7.00,
+          "allergeni": [1]
+        },
+        { 
+          "nome": "Hawawshi alla brace", 
+          "nome_arabo": "حواوشي على الفحم",
+          "descrizione": "Pane ripieno di carne macinata speziata cotto alla brace", 
+          "descrizione_araba": "خبز محشو باللحم المفروم المتبل مطهو على الفحم",
+          "prezzo": 7.00,
+          "allergeni": [1]
+        },
+        { 
+          "nome": "Panino arabo con fegato", 
+          "nome_arabo": "ساندوتش كبده",
+          "descrizione": "Fegato saltato con aromi, servito nel tipico pane arabo", 
+          "descrizione_araba":"كبدة مقلية مع التوابل، تقدم في الخبز العربي",
+          "prezzo": 7.00,
+          "allergeni": [1]
+        },
+        { 
+          "nome": "Hamburger di manzo", 
+          "nome_arabo": "هامبورجر لحم",
+          "descrizione": "", 
+          "descrizione_araba":"",
+          "prezzo": 7.00,
+          "allergeni": [1]
+        }
+      ]
+    },
+    {
+      "categoria": "Piatti dei faraoni",
+      "descrizione": "Solo su prenotazione",
+      "items": [
+        { 
+          "nome": "Mahashy miste", 
+          "nome_arabo": "محشي مشكل",
+          "descrizione": "Foglie di vite, zucchine, melanzane, cavolo e peperoni ripieni di riso, pomodoro, cipolla e spezie, aneto, menta e prezzemolo", 
+          "descrizione_araba": "ورق عنب، كوسا، باذنجان، ملفوف وفلفل محشي بالأرز، طماطم، بصل وتوابل، شبت، نعناع وبقدونس",
+          "prezzo": 9.00,
+          "allergeni": [9]
+        },
+        { 
+          "nome": "Mombar", 
+          "nome_arabo": "ممبار",
+          "descrizione": "Salsicce ripiene di riso, pomodoro, cipolla, spezie, aneto, menta e prezzemolo", 
+          "descrizione_araba": "سجق محشو بالأرز، طماطم، بصل وتوابل، شبت، نعناع وبقدونس",
+          "prezzo": 7.00,
+          "allergeni": [9]
+        },
+        { 
+          "nome": "Riso Madasous", 
+          "nome_arabo": "أرز مدسوس",
+          "descrizione": "Riso, latte e burro e un leggero sapore salato", 
+          "descrizione_araba": "أرز، حليب وزبدة مع نكهة مالحة خفيفة",
+          "prezzo": 7.00,
+          "allergeni": [7]
+        },
+        { 
+          "nome": "Pasta al forno", 
+          "nome_arabo": "مكرونة بالفرن",
+          "descrizione": "Pasta, carne macinata, besciamella e formaggio", 
+          "descrizione_araba": "مكرونة، لحم مفروم، بشاميل وجبن",
+          "prezzo": 10.00,
+          "allergeni": [1,3,7]
+        },
+        { 
+          "nome": "Coda di manzo", 
+          "nome_arabo": "طاجن عكاوي",
+          "descrizione": "Coda di manzo, burro, cipolla, pomodoro, peperone e aglio", 
+          "descrizione_araba": "ذيل البقر، زبدة، بصل، طماطم، فلفل وثوم",
+          "prezzo": 13.00,
+          "allergeni": [7,9]
+        }
+      ]
+    },
+      {
+        "categoria": "Banchetti di Mimmo",
+        "descrizione": "Ideali per condividere i sapori della nostra terra",
+        "items": [
+          { 
+            "nome": "Cibanchetto Mimmo (2 persone)", 
+            "nome_arabo": "وليمة ميمو (لشخصين)",
+            "descrizione": "Vassoio conviviale con selezione dei nostri piatti migliori per 2 persone", 
+            "descrizione_araba": "صينية مشتركة مع مجموعة مختارة من أفضل أطباقنا لشخصين",
+            "prezzo": 25.00,
+            "allergeni": [1,7,11]
+          },
+          { 
+            "nome": "Cibanchetto Mimmo (6 persone)", 
+            "nome_arabo": "وليمة ميمو (لستة أشخاص)",
+            "descrizione": "Gran banchetto con selezione dei nostri piatti migliori per 6 persone", 
+            "descrizione_araba": "وليمة كبيرة مع مجموعة مختارة من أفضل أطباقنا لستة أشخاص",
+            "prezzo": 70.00,
+            "allergeni": [1,7,11]
+          },
+          { 
+            "nome": "Grigliata mista", 
+            "nome_arabo": "مشويات مشكلة",
+            "descrizione": "Un chilo di pura carne selezionata grigliata con cura alla brace", 
+            "descrizione_araba": "كيلو من اللحم المختار المشوي بعناية على الفحم",
+            "prezzo": 50.00,
+            "allergeni": [1,7]
+          }
+        ]
+      },
+        {
+          "categoria": "Dolci",
+          "descrizione": "",
+          "items": [
+            { 
+              "nome": "Riso al latte", 
+              "nome_arabo": "أرز بالحليب",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 3.00,
+              "allergeni": [7]
+            },
+            { 
+              "nome": "Tiramisù", 
+              "nome_arabo": "تيراميسو",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 3.50,
+              "allergeni": [1,3,7]
+            },
+            { 
+              "nome": "Kunafa", 
+              "nome_arabo": "كنافة",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 3.00,
+              "allergeni": [1,7,8]
+            },
+            { 
+              "nome": "Baklava", 
+              "nome_arabo": "بقلاوة",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 3.00,
+              "allergeni": [1,7,8]
+            },
+            { 
+              "nome": "Tartufo bianco/nero", 
+              "nome_arabo": "ترافل أبيض/أسود",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 6.00,
+              "allergeni": [3,7]
+            },
+            { 
+              "nome": "Basbousa", 
+              "nome_arabo": "بسبوسة",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 3.00,
+              "allergeni": [1,7,8]
+            }
+
+          ]
+        },
+        {
+          "categoria": "Bevande Calde",
+          "descrizione": "",
+          "items": [
+            { 
+              "nome": "Tè egiziano", 
+              "nome_arabo": "شاي مصري",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 2.00,
+              "allergeni": []
+            },
+            { 
+              "nome": "Sahlab", 
+              "nome_arabo": "سحلب",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 4.00,
+              "allergeni": [7,8,11]
+            },
+            { 
+              "nome": "Caffè espresso", 
+              "nome_arabo": "قهوة إسبرسو",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 0.80,
+              "allergeni": []
+            },
+            { 
+              "nome": "Cappuccino", 
+              "nome_arabo": "كابتشينو",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 1.30,
+              "allergeni": [7]
+            }
+          ]
+        },
+        {
+          "categoria": "Bevande fredde",
+          "descrizione": "",
+          "items": [
+            { 
+              "nome": "Acqua naturale e frizzante (0.5l)", 
+              "nome_arabo": "ماء طبيعي وفوار (0.5 لتر)",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 1.00,
+              "allergeni": []
+            },
+            { 
+              "nome": "Acqua naturale e frizzante (1.5l)", 
+              "nome_arabo": "ماء طبيعي وفوار (1.5 لتر)",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 2.00,
+              "allergeni": []
+            },
+            { 
+              "nome": "Bibite in lattina", 
+              "nome_arabo": "مشروبات معلبة",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 2.50,
+              "allergeni": []
+            },
+            { 
+              "nome": "Cola grande", 
+              "nome_arabo": "كولا كبيرة",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 4.50,
+              "allergeni": []
+            },
+            { 
+              "nome": "Succhi di frutta fresca", 
+              "nome_arabo": "عصائر الفاكهة الطازجة",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 4.00,
+              "allergeni": []
+            },
+            { 
+              "nome": "Redbull", 
+              "nome_arabo": "ريد بول",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 3.10,
+              "allergeni": []
+            },
+            { 
+              "nome": "Fayrouz", 
+              "nome_arabo": "فايروز",
+              "descrizione": "", 
+              "descrizione_araba": "",
+              "prezzo": 4.00,
+              "allergeni": []
+          }
+          ]
+        }
+  ],
+  "legenda_allergeni": [
+    { "id": 1, "nome": "Glutine" },
+    { "id": 2, "nome": "Crostacei" },
+    { "id": 3, "nome": "Uova" },
+    { "id": 4, "nome": "Pesce" },
+    { "id": 5, "nome": "Arachidi" },
+    { "id": 6, "nome": "Soia" },
+    { "id": 7, "nome": "Latte" },
+    { "id": 8, "nome": "Frutta a guscio" },
+    { "id": 9, "nome": "Sedano" },
+    { "id": 10, "nome": "Senape" },
+    { "id": 11, "nome": "Sesamo" },
+    { "id": 12, "nome": "Anidride solforosa" },
+    { "id": 13, "nome": "Lupini" },
+    { "id": 14, "nome": "Molluschi" }
+  ]
+}
