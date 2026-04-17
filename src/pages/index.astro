@@ -71,19 +71,34 @@ import menuData from '../data/menu.json';
         border-top-right-radius: 35px;
       }
 
-      body{
-        position: relative;
-        min-height: 100vh;
+      body {
         margin: 0;
         padding: 0;
-        overflow-x: hidden;
-        /* --- Sfondo spostato qui --- */
-        background-color: var(--c-sfondo);
-        background-image: 
-          linear-gradient(rgba(var(--c-sfondo-rgb), 0.7), rgba(var(--c-sfondo-rgb), 0.7)), 
-          url("/pattern-geometrico.PNG");
-        background-size: 120px;
+        position: relative;
+        /* Usiamo il colore solido qui come base sicura */
+        background-color: #fdf6e9; 
+      }
+
+      #pattern-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* Fondamentale: deve coprire tutta l'altezza del documento, non solo lo schermo */
+        height: 100%; 
+        z-index: -1; /* Lo mette dietro a tutto */
+        pointer-events: none; /* Non intercetta i click */
+        
+        /* Usiamo un trucco: invece di RGBA (che il mobile deve calcolare), 
+          sovrapponiamo il pattern con un'opacità fissa */
+        background-image: url("/pattern-geometrico.PNG");
         background-repeat: repeat;
+        background-size: 120px;
+        opacity: 0.3; /* Qui decidi quanto deve essere visibile il pattern */
+        
+        /* Questo comando dice al telefono: "Usa la scheda video per questo div" */
+        transform: translateZ(0);
+        will-change: transform;
       }
       
       /* --- LOGO: Più grande su mobile, più equilibrato su desktop --- */
@@ -725,7 +740,7 @@ import menuData from '../data/menu.json';
         /*opacity: 0.8;*/
         
         margin-top: 4px !important; 
-		display: block;
+		    display: block;
       }
       .category-description .allergen-badge {
         display: inline-flex !important;
@@ -787,6 +802,8 @@ import menuData from '../data/menu.json';
   </head>
   
   <body class=" text-[var(--c-testo)] font-['Poppins']">
+
+    <div id="pattern-overlay"></div>
 
     <header class="bg-pattern-dark text-white shadow-xl relative rounded-b-[50px] md:rounded-b-[100px]">
 
@@ -946,7 +963,7 @@ import menuData from '../data/menu.json';
                   <p class="category-description text-[16px] md:text-[18px] max-w-2xl mx-auto mt-0.5 md:mt-1 px-4 sm:px-6 leading-relaxed"
                     set:html={sezione.descrizione.replace(
                       /pane/gi, 
-                      'pane<span class="allergen-badge allergen-badge-sup" data-allergen-id="1">1<span class="allergen-tooltip">Glutine</span></span>'
+                      '<span class="whitespace-nowrap">pane<span class="allergen-badge allergen-badge-sup" data-allergen-id="1">1<span class="allergen-tooltip">Glutine</span></span></span>'
                     )}
                   ></p>
                 )}
