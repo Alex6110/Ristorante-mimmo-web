@@ -128,8 +128,8 @@
       ]
     },
     {
-      "categoria": "Dal braciere - le grigliate",
-      "descrizione": "",
+      "categoria": "Dal braciere",
+      "descrizione": "Le nostre grigliate",
       "items": [
         { 
           "nome": "Pollo alla griglia", 
@@ -190,8 +190,8 @@
       ]
     },
     {
-      "categoria": "Specialità dello Chef - piatti unici",
-      "descrizione": "",
+      "categoria": "Piatti unici",
+      "descrizione": "Le specialità dello chef",
       "items": [
         { 
           "nome": "Fajita di pollo", 
@@ -340,7 +340,7 @@
         "descrizione": "Ideali per condividere i sapori della nostra terra",
         "items": [
           { 
-            "nome": "Cibanchetto Mimmo (2 persone)", 
+            "nome": "Cibanchetto Mimmo (2 pers.)", 
             "nome_arabo": "وليمة ميمو (لشخصين)",
             "descrizione": "Vassoio conviviale con selezione dei nostri piatti migliori per 2 persone", 
             "descrizione_araba": "صينية مشتركة مع مجموعة مختارة من أفضل أطباقنا لشخصين",
@@ -348,7 +348,7 @@
             "allergeni": [1,7,11]
           },
           { 
-            "nome": "Cibanchetto Mimmo (6 persone)", 
+            "nome": "Cibanchetto Mimmo (6 pers.)", 
             "nome_arabo": "وليمة ميمو (لستة أشخاص)",
             "descrizione": "Gran banchetto con selezione dei nostri piatti migliori per 6 persone", 
             "descrizione_araba": "وليمة كبيرة مع مجموعة مختارة من أفضل أطباقنا لستة أشخاص",
